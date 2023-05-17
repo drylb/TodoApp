@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-top: 20px;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="date"] {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+form button[type="submit"] {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+  background-color: #0069d9;
+}
+
+#todo-list {
+  max-width: 777px;
+  margin:0 auto;
+  list-style-type: none;
+}
+
+[id^="todo-item"] {
+  padding-bottom: 3%;
+  padding-top: 3%;
+  padding-left: 10%;
+}
+
+
+#todo-list .title {
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#todo-list .start_date,
+#todo-list .end_date {
+  font-size: 14px;
+  color: #666;
+}
+
+/* #todo-list .todo-item .actions {
+  margin-top: 10px;
+} */
+
+#todo-list .delete_btn,
+#todo-list .update_btn {
+  padding: 6px 10px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+#todo-list  .delete_btn:hover,
+#todo-list  .edit_btn:hover {
+  background-color: #c82333;
+}
+
