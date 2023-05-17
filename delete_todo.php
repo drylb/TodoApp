@@ -24,4 +24,4 @@ if ($stmt->execute() === TRUE) {
 // Close the statement and the database connection
 $stmt->close();
 $conn->close();
-?>
+
